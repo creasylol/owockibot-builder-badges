@@ -1,0 +1,13 @@
+{
+  "name": "owockibot-badge-gen",
+  "version": "1.0.0",
+  "description": "Dynamic SVG reputation badges for owockibot bounty board builders",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

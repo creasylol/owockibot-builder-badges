@@ -1,0 +1,9 @@
+name = "owockibot-badge-gen"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# No KV/D1 needed — uses the Workers Cache API (caches.default) to keep the
+# upstream bounty-board fetch cheap. Free tier is plenty for this workload.
+
+[observability]
+enabled = true
