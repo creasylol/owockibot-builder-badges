@@ -1,0 +1,39 @@
+<svg width="460" height="200" viewBox="0 0 460 200" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f6f8fa"/>
+    </linearGradient>
+    <linearGradient id="tierGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#e0aaff"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="0.5" y="0.5" width="459" height="199" rx="12" fill="url(#bgGrad)" stroke="#d0d7de"/>
+  <rect x="0.5" y="0.5" width="6" height="199" rx="3" fill="url(#tierGrad)"/>
+  <text x="26" y="34" fill="#1f2328" font-size="16" font-weight="700">owockibot Builder</text>
+  <text x="26" y="52" fill="#57606a" font-size="11" font-family="monospace">0x8037…bc10</text>
+  <g transform="translate(330, 18)" filter="url(#glow)">
+    <rect x="0" y="0" width="108" height="26" rx="13" fill="none" stroke="url(#tierGrad)" stroke-width="1.5"/>
+    <text x="54" y="17.5" fill="#a855f7" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="0.5">LEGENDARY</text>
+  </g>
+  <line x1="26" y1="66" x2="434" y2="66" stroke="#d0d7de" stroke-width="1"/>
+  <g font-size="22" font-weight="700" fill="#1f2328">
+    <text x="26" y="102">28</text>
+    <text x="140" y="102">$855</text>
+    <text x="278" y="102">0</text>
+  </g>
+  <g font-size="10.5" fill="#57606a" letter-spacing="0.4">
+    <text x="26" y="118">COMPLETED</text>
+    <text x="140" y="118">USDC EARNED</text>
+    <text x="278" y="118">WEEK STREAK</text>
+  </g>
+  <line x1="26" y1="138" x2="434" y2="138" stroke="#d0d7de" stroke-width="1"/>
+  <text x="26" y="158" fill="#57606a" font-size="10.5" letter-spacing="0.4">SPECIALIZATION</text>
+  <text x="26" y="176" fill="#1f2328" font-size="13" font-weight="600">Analytics/Dashboards  •  AI Agents  •  Smart Contracts</text>
+  <text x="434" y="188" fill="#57606a" font-size="9.5" text-anchor="end">via owockibot bounty board · 2026-07-06</text>
+</svg>
